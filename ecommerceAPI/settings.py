@@ -42,10 +42,13 @@ INSTALLED_APPS = [
 
     # PROJECT APPS
     'apps.users.apps.UsersConfig',
+    'apps.base.apps.BaseConfig',
+    'apps.products.apps.ProductsConfig',
 
     # THIRD APPS
     'rest_framework',
     "phonenumber_field",
+    'simple_history',
 ]
 
 AUTH_USER_MODEL = 'users.User'
